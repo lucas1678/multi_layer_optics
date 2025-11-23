@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 
-QUARTZ_DATA = "/home/lubackes/Desktop/python_codes/multi_layer_optics/data/quartz_index_of_refraction_vals.csv"
-SILICON_DATA = "/home/lubackes/Desktop/python_codes/multi_layer_optics/data/Franta-100K_Si_refractive_index.csv"
+QUARTZ_DATA = "data/quartz_index_of_refraction_vals.csv"
+SILICON_DATA = "data/Franta-100K_Si_refractive_index.csv"
 
 def get_refractive_index(material, wavelength): #wavelength in microns (um)
     if material == "Quartz":
